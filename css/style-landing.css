@@ -10,7 +10,8 @@
 	font-family: 'Lato-Black.ttf';
     src: url( ../fonts/Lato-Black.ttf ) format("truetype"); 
 }
-body { width: 1300px; margin: 0 auto; font-family: Lato-Regular !important;
+body { width: 1300px; margin: 0 auto; font-family: Lato-Regular !important; min-height: 2000px;
+  padding-top: 70px;
 }
 
 .blue{color: #009BDE;}
@@ -39,20 +40,51 @@ img {
     opacity: 1;
     background-color: black;
 }
-
+.navbar-default { background-color: #FFFFFF}
 .clear {clear: both;}
 .nav-h {height: 80px !important;}
 .tab1 {margin-top: 100px; height: 600px; }
 .content-right{width: 500px; float: left; margin-top: 70px}
-.content-left{width: 600px; float: right; height: 600px; background: url(../images/car.png) no-repeat center;}
+.content-left-lg
+{
+    background-image:url(../images/car.png);
+    background-size:600px 600px;
+    height:600px;
+    background-repeat:no-repeat;
+}
+
+.content-left-md
+{
+   background-image:url(../images/car.png);
+    background-size:400px 400px;
+    height:400px;
+    background-repeat:no-repeat;
+}
+
+.content-left-sm
+{
+    background-image:url(../images/car.png);
+    background-size:400px 400px;
+    height:400px;
+    background-repeat:no-repeat;
+}
+
+.content-left-xs
+{
+    background-image:url(../images/car.png);
+    background-size:150px 150px;
+    height:150px;
+    background-repeat:no-repeat;
+}
 .tab2{}
 .bc {height: 700px;}
 .bc-1 {height: 350px; background: url(../images/bg1.png) no-repeat center;}
 .introduct{
 	
 	text-align:center;
+    margin-bottom: 50px;
 }
-.introduct h2, .tab2 h2{
+.introduct h2,{
 font-family: Lato-Bold;
 font-size: 40px;
 letter-spacing: 0.83px;
@@ -74,7 +106,6 @@ text-align: center;
 	width: 8%;
 	background:#00B2FF 100%;
 	display: inline-block;
-    margin-left: 500px;
     
 }
 
@@ -91,7 +122,6 @@ text-align: left;
 	width: 8%;
 	background:#00B2FF 100%;
 	display: inline-block;
-    margin-bottom: 10px;
 }
 
 .carousel-item h2{
@@ -118,6 +148,8 @@ text-align: center;
     height: 270px;
     background-color: #d4d4d4;
 }
+.px{padding: 20px}
+.px-2{padding: 10px}
 .video-1{width: 640px; height: 360px; background: url(../images/video-1.png) no-repeat center; margin: 0 auto; margin-top: 60px;
 -webkit-box-shadow: 0px -2px 22px 6px rgba(0,0,0,0.35);
 -moz-box-shadow: 0px -2px 22px 6px rgba(0,0,0,0.35);
